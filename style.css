@@ -51,6 +51,10 @@ a:hover {
 .bloc-md {
     padding: 50px;
 }
+.service-description{
+    font-size: 25px;
+    font-weight: bold;
+}
 
 .bloc-sm {
     padding: 20px 50px;
@@ -90,10 +94,7 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
+
 
 .b-parallax {
     background-attachment: fixed;
@@ -753,7 +754,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(80, 80, 80, 0.8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,16 +772,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: rgb(80, 80, 80);
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #FFFFFF;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -822,7 +823,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
